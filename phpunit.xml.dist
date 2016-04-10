@@ -1,0 +1,75 @@
+<phpunit backupGlobals="false" colors="true" bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Coinfide Test Suite">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+         <!--xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.1/phpunit.xsd"-->
+         <!--backupGlobals="false"-->
+         <!--colors="true"-->
+         <!--bootstrap="vendor/autoload.php"-->
+<!--&gt;-->
+    <!--<php>-->
+        <!--<ini name="error_reporting" value="-1" />-->
+        <!--<ini name="intl.default_locale" value="en" />-->
+        <!--<ini name="intl.error_level" value="0" />-->
+        <!--<ini name="memory_limit" value="-1" />-->
+        <!--&lt;!&ndash;<env name="DUMP_LIGHT_ARRAY" value="" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<env name="DUMP_STRING_LENGTH" value="" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<env name="LDAP_HOST" value="127.0.0.1" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<env name="LDAP_PORT" value="3389" />&ndash;&gt;-->
+    <!--</php>-->
+
+    <!--<testsuites>-->
+        <!--<testsuite name="Coinfide Test Suite">-->
+            <!--<directory>./test/*</directory>-->
+        <!--</testsuite>-->
+    <!--</testsuites>-->
+
+    <!--&lt;!&ndash;<groups>&ndash;&gt;-->
+        <!--&lt;!&ndash;<exclude>&ndash;&gt;-->
+            <!--&lt;!&ndash;<group>benchmark</group>&ndash;&gt;-->
+            <!--&lt;!&ndash;<group>intl-data</group>&ndash;&gt;-->
+        <!--&lt;!&ndash;</exclude>&ndash;&gt;-->
+    <!--&lt;!&ndash;</groups>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<filter>&ndash;&gt;-->
+        <!--&lt;!&ndash;<whitelist>&ndash;&gt;-->
+            <!--&lt;!&ndash;<directory>./src/Symfony/</directory>&ndash;&gt;-->
+            <!--&lt;!&ndash;<exclude>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Bridge/*/Tests</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Component/*/Tests</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Component/*/*/Tests</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Bundle/*/Tests</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Bundle/*/Resources</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Component/*/Resources</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Component/*/*/Resources</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Bridge/*/vendor</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Bundle/*/vendor</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Component/*/vendor</directory>&ndash;&gt;-->
+                <!--&lt;!&ndash;<directory>./src/Symfony/Component/*/*/vendor</directory>&ndash;&gt;-->
+            <!--&lt;!&ndash;</exclude>&ndash;&gt;-->
+        <!--&lt;!&ndash;</whitelist>&ndash;&gt;-->
+    <!--&lt;!&ndash;</filter>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<listeners>&ndash;&gt;-->
+        <!--&lt;!&ndash;<listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener">&ndash;&gt;-->
+            <!--&lt;!&ndash;<arguments>&ndash;&gt;-->
+                <!--&lt;!&ndash;<array>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<element key="time-sensitive">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<array>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<element><string>Cache\IntegrationTests</string></element>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<element><string>Doctrine\Common\Cache</string></element>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<element><string>Symfony\Component\Console</string></element>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<element><string>Symfony\Component\HttpFoundation</string></element>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</array>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</element>&ndash;&gt;-->
+                <!--&lt;!&ndash;</array>&ndash;&gt;-->
+            <!--&lt;!&ndash;</arguments>&ndash;&gt;-->
+        <!--&lt;!&ndash;</listener>&ndash;&gt;-->
+    <!--&lt;!&ndash;</listeners>&ndash;&gt;-->
+<!--</phpunit>-->

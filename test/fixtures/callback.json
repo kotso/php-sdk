@@ -1,0 +1,62 @@
+{
+  "uid": "e99ec305-bfc7-4931-b7b4-19eb998bcdcf",
+  "seller": {
+    "email": "seller@coinfide.com"
+  },
+  "buyer": {
+    "email": "buyer@coinfide.com"
+  },
+  "amountTotal": 15.18,
+  "currencyCode": "EUR",
+  "status": "PA",
+  "transactions": [{
+    "uid": "K2KIPNIKVT",
+    "type": "I",
+    "action": "PR",
+    "status": "S",
+    "amount": 15.18,
+    "paymentMethodCode": "bankcard",
+    "payer": {
+      "email": "buyer@coinfide.com"
+    },
+    "parameters": [{
+      "name": "cardholder",
+      "value": "TEST TEST"
+    }, {
+      "name": "iin",
+      "value": "411111"
+    }, {
+      "name": "lastFour",
+      "value": "1111"
+    }, {
+      "name": "expYear",
+      "value": "2017"
+    }, {
+      "name": "expMonth",
+      "value": "1"
+    }, {
+      "name": "cardType",
+      "value": "V"
+    }]
+  }, {
+    "uid": "PCIDZVUYGK",
+    "type": "T",
+    "action": "PR",
+    "status": "S",
+    "amount": 15.18,
+    "payer": {
+      "email": "buyer@coinfide.com"
+    }
+  }, {
+    "uid": "SWIYMBHJIJ",
+    "type": "T",
+    "action": "TA",
+    "status": "S",
+    "amount": 0.30,
+    "payer": {
+      "email": "buyer@coinfide.com"
+    }
+  }],
+  "testOrder": false,
+  "merchantUrl": "http://example.com/callback"
+}

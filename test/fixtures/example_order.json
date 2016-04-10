@@ -1,0 +1,92 @@
+{
+  "order": {
+    "seller": {
+      "email": "merchant@coinfide.com",
+      "phone": {
+        "countryCode": "371",
+        "number": "20000000"
+      },
+      "address": {
+        "countryCode": "LV",
+        "city": "Riga",
+        "firstAddressLine": "Duntes 4",
+        "secondAddressLine": "Office 403",
+        "state": "Rigas",
+        "postalCode": "LV-2020"
+      },
+      "website": "http://www.example.com",
+      "taxpayerIdentificationNumber": "TAX83642",
+      "additionalInfo": "Additional information for buyer"
+    },
+    "buyer": {
+      "email": "buyer@coinfide.com",
+      "phone": {
+        "countryCode": "371",
+        "number": "21111111"
+      },
+      "name": "Anna",
+      "surname": "Borg",
+      "language": "en",
+      "address": {
+        "countryCode": "LV",
+        "city": "Riga",
+        "firstAddressLine": "Brivibas 1/2",
+        "secondAddressLine": "Office 404",
+        "state": "Rigas",
+        "postalCode": "LV-1010"
+      }
+    },
+    "currencyCode": "EUR",
+    "discountAmount": 0.00,
+    "discountPercent": 0.00,
+    "amountTotal": 110.00,
+    "issueDate": "20151001184000",
+    "dueDate": "20171201184000",
+    "externalOrderId": "TSPV000001",
+    "reference": "REF582764",
+    "note": "Some note here",
+    "terms": "Terms and conditions",
+    "provisionChannel": "123456",
+    "affiliateInfo": {
+      "affiliateId": "AF4",
+      "campaignId": "C539",
+      "bannerId": "BRT13",
+      "customParameters": "tr=24&hd=3"
+    },
+    "acceptPaymentsIfOrderExpired": true,
+    "taxBeforeDiscount": true,
+    "taxInclusive": true,
+    "successUrl": "http://seller.success.url",
+    "failUrl": "http://seller.fail.url",
+    "orderItems": [{
+      "type": "I",
+      "name": "Item1",
+      "description": "First item description",
+      "priceUnit": 10.00,
+      "quantity": 10,
+      "discountAmount": 0,
+      "discountPercent": 10,
+      "tax": {
+        "rate": 20.00,
+        "name": "Tax 20%"
+      }
+    }, {
+      "type": "S",
+      "name": "Shipping with FedEx",
+      "priceUnit": 20.00,
+      "quantity": 1,
+      "tax": {
+        "rate": 10.00,
+        "name": "Tax 10%"
+      }
+    }],
+    "shippingAddress": {
+      "countryCode": "MT",
+      "city": "M'scala",
+      "firstAddressLine": "Triq Il-Buhagiar",
+      "secondAddressLine": "Fl.2, Hortana Court",
+      "state": "South",
+      "postalCode": "MSK2100"
+    }
+  }
+}

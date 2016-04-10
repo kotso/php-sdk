@@ -1,0 +1,97 @@
+{
+  "orderId": "fc954dc1-3ef6-4db6-adf8-653f0ef99caf",
+  "order": {
+    "uid": "fc954dc1-3ef6-4db6-adf8-653f0ef99caf",
+    "orderNumber": "INV-100-001-001-01",
+    "seller": {
+      "email": "seller@coinfide.com",
+      "externalUid": "100-000-001-01",
+      "businessName": "SIA COINFIDE",
+      "address": {
+        "countryCode": "LV",
+        "city": "Riga",
+        "firstAddressLine": "Duntes 4",
+        "secondAddressLine": "Office 403",
+        "state": "Rigas",
+        "postalCode": "LV-2020"
+      },
+      "taxpayerIdentificationNumber": "TAX83642",
+      "additionalInfo": "Additional information for buyer"
+    },
+    "buyer": {
+      "email": "anna.borg@enauda.com",
+      "externalUid": "100-000-001-01"
+    },
+    "type": "P",
+    "status": "SE",
+    "currencyCode": "EUR",
+    "discountAmount": 0.00,
+    "discountPercent": 0.00,
+    "amountTotal": 110.00,
+    "issueDate": "20151001184000",
+    "dueDate": "20151201184000",
+    "externalOrderId": "TSPV000001",
+    "reference": "REF582764",
+    "note": "Some note here",
+    "terms": "Terms and conditions",
+    "affiliateInfo": {
+      "affiliateId": "AF4",
+      "campaignId": "C539",
+      "bannerId": "BRT13",
+      "customParameters": "tr=24&hd=3"
+    },
+    "acceptPaymentsIfOrderExpired": true,
+    "taxBeforeDiscount": true,
+    "taxInclusive": true,
+    "successUrl": "http://seller.success.url",
+    "failUrl": "http://seller.fail.url",
+    "orderItems": [{
+      "type": "I",
+      "name": "Item1",
+      "description": "First item description",
+      "priceUnit": 10.00,
+      "quantity": 10,
+      "discountAmount": 0.00,
+      "discountPercent": 10.00,
+      "amountSubtotal": 100.00,
+      "amountTotal": 90.00,
+      "tax": {
+        "rate": 20,
+        "name": "Tax 20%"
+      },
+      "discountAmountCalculated": 10.00,
+      "orderDiscountAmountPerItemCalculated": 0.00,
+      "taxAmount": 16.67
+    }, {
+      "type": "S",
+      "name": "Shipping with FedEx",
+      "priceUnit": 20.00,
+      "quantity": 1,
+      "discountAmount": 0.00,
+      "discountPercent": 0.00,
+      "amountSubtotal": 20.00,
+      "amountTotal": 20.00,
+      "tax": {
+        "rate": 10,
+        "name": "Tax 10%"
+      },
+      "discountAmountCalculated": 0.00,
+      "orderDiscountAmountPerItemCalculated": 0.00,
+      "taxAmount": 1.82
+    }],
+    "shippingAddress": {
+      "countryCode": "MT",
+      "city": "M'scala",
+      "firstAddressLine": "Triq Il-Buhagiar",
+      "secondAddressLine": "Fl.2, Hortana Court",
+      "state": "South",
+      "postalCode": "MSK2100"
+    },
+    "itemsAmountSubtotal": 120.00,
+    "itemsAmountTotal": 110.00,
+    "itemsTaxAmount": 18.49,
+    "itemsDiscountAmount": 10.00,
+    "discountAmountCalculated": 0.00
+  },
+  "redirectUrl": "http://demo-paypages.enauda.com/paymentpages/fc954dc1-3ef6-4db6-adf8-653f0ef99caf"
+}

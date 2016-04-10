@@ -1,0 +1,16 @@
+# Coinfide integration generic PHP SDK
+
+## Installation 
+
+Require it with Composer TODO COMPOSER URL HERE
+
+## Examples
+
+Copy ```.env.example``` to ```.env``` and run the tests or examples. Two examples are included:
+
+* ```example.php``` - example order creation, and redirection to payment form
+* ```callback.php``` - example callback processing
+
+## Further reading
+
+TODO Link to coinfide.com documentation
