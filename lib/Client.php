@@ -84,7 +84,24 @@ class Client
         return $wrappedOrder;
     }
 
-    protected function request($path, $data, $token = '')
+    public function refund($orderId, $amount)
+    {
+        $token = $this->getToken();
+
+        $response = $this->request(
+            'order/refund',
+            array('orderId' => $orderId, 'amount' => $amount),
+            $token->getAccessToken()
+        );
+
+        $order = new Order();
+        $order->fromArray($response['order']);
+        $order->validate();
+
+        return $order;
+    }
+
+    public function request($path, $data, $token = '')
     {
         if (!$this->endpoint) {
             throw new CoinfideException('No endpoint set, call "setMode" first');
@@ -109,7 +126,7 @@ class Client
         }
 
         $decoded = json_decode($result, true);
-
+        
         if (!$decoded) {
             throw new CoinfideException('Received JSON is not decodable');
         }
