@@ -5,8 +5,7 @@ namespace Coinfide\Entity;
 class Callback extends Base
 {
     protected $validationRules = array(
-        //todo: temporary or remove completely
-        //'externalOrderId' => array('type' => 'string', 'required' => true),
+        'externalOrderId' => array('type' => 'string', 'required' => false),
         'uid' => array('type' => 'string', 'max_length' => 36, 'required' => true),
         'seller' => array('type' => 'object', 'class' => '\Coinfide\Entity\Account', 'required' => true),
         'buyer' => array('type' => 'object', 'class' => '\Coinfide\Entity\Account', 'required' => true),
