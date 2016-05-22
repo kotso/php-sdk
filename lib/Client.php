@@ -113,6 +113,7 @@ class Client
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($curl, CURLOPT_SSLVERSION , CURL_SSLVERSION_TLSv1);
         curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
 
         curl_setopt($curl, CURLOPT_HTTPHEADER, array(sprintf('Authorization: Basic %s', $token), 'Content-Type: application/json'));
